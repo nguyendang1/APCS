@@ -13,9 +13,10 @@ class Lesson_17_Activity
 		for (int i=1; i<a.length; i++) {
 			if (a[i]<a[i-1]) {
 				sorted=false;
+				break;
 			}
 			else{
-			sorted=false;
+			sorted=true;
 		}
 		}
 		
